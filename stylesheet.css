@@ -282,3 +282,7 @@ footer {
     font-family: 'Roboto Slab', serif;
     font-weight:  400;
 }
+.counter{
+    position: relative;
+    left: 150px;
+}
