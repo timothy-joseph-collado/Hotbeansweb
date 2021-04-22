@@ -61,12 +61,7 @@ html, body {
     padding-top: 10px;
     justify-content: center;
 }
-.about_row {
-    padding-left: 50px;
-    padding-bottom: 50px;
-    margin-top: -100px;
-    margin-bottom: -130px;
-}
+
 /*Team*/
 .welcome{
     margin-top: -40px;
@@ -117,16 +112,19 @@ html, body {
 }
 .apply_row img{
     max-width: 100%;
-    height: 80vh;
+    height: 500px;
     padding-left: 30px;
     padding-top: 10px;
-    justify-content: center;
+    position: relative;
+    left: 20px;
+    top: 50px;
 }
 .apply_row {
     padding-left: 50px;
     padding-bottom: 50px;
     margin-top: -100px;
     margin-bottom: -130px;
+    
 }
 
 /*Form*/
@@ -173,6 +171,8 @@ input[type="checkbox"]{
     width: 700px;
     padding: 30px;
     box-shadow: 0 0 8px rgba(0,0,0,0.4);
+    position: relative;
+    left: 650px;
 }
 .h-text{
     font-family: 'Roboto Slab', serif;
@@ -288,4 +288,63 @@ footer {
 .counter{
     position: relative;
     left: 150px;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 480px) {
+    .navbar {
+        border: 2px solid transparent;
+        padding-bottom: 50px;
+        padding-top: -100px;
+    }
+    
+    
+    .navbar-brand img{
+        width: 80%;
+        height: 50%;
+        position: relative;
+        left: 70px;
+    }
+    #about {
+        padding: 0;
+        padding-top: 100px;
+        margin: 0;
+        margin-bottom: 120px;
+    }
+
+    .about_row img{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .about_row {
+        padding-left: 50px;
+        padding-bottom: 50px;
+        margin-top: -100px;
+        margin-bottom: -130px;
+    }
+    .card{
+        border-bottom: 8px solid salmon;
+        background: #dad0c0;
+        margin-bottom: 40px;
+        width: 350px;
+        position: relative;
+        left: auto;
+       
+    }
+    #apply{
+        margin: 0;
+        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    #apply img{
+        display: none;
+    }
+    .center{
+        margin: 0;
+        padding: 0;
+    }
+
 }
