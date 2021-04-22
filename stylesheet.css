@@ -291,14 +291,13 @@ footer {
 }
 
 /* Mobile responsive */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     .navbar {
         border: 2px solid transparent;
         padding-bottom: 50px;
         padding-top: -100px;
     }
-    
-    
+
     .navbar-brand img{
         width: 80%;
         height: 50%;
@@ -338,13 +337,20 @@ footer {
         padding: 0;
         padding-top: 100px;
         padding-bottom: 150px;
+        margin-bottom: 50px;
     }
     #apply img{
         display: none;
     }
-    .center{
+   
+    /* form */
+    .container-form {
         margin: 0;
         padding: 0;
+        position: relative;
+        left: 155px;
+        margin-top: 40px;
+        width: 100%;
     }
 
 }
