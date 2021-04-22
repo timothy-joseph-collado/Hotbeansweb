@@ -85,6 +85,9 @@ html, body {
     border-bottom: 8px solid salmon;
     background: #dad0c0;
     margin-bottom: 40px;
+    width: 350px;
+    position: relative;
+    left: 70px;
 }
 /*Apply*/
 #apply {
