@@ -291,7 +291,7 @@ footer {
 }
 
 /* Mobile responsive */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 557px) {
     .navbar {
         border: 2px solid transparent;
         padding-bottom: 50px;
@@ -358,7 +358,7 @@ footer {
 
 }
 
-@media screen and (max-width: 1024px) and (min-width: 400px) {
+@media screen and (max-width: 1123px) and (min-width: 557px) {
     .navbar {
         border: 2px solid transparent;
         padding-bottom: 50px;
