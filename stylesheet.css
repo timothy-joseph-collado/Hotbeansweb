@@ -8,7 +8,7 @@ html, body {
 /* Navbar*/
 .navbar {
     border: 2px solid transparent;
-    padding: .8rem;
+    padding: .4rem;
 }
 
 
@@ -22,7 +22,6 @@ html, body {
     font-size: 1.1em !important;
     margin-right: 50px;
     color: #D9700D !important;
-   
 
 }
 
@@ -31,10 +30,9 @@ html, body {
     border-bottom: 2px solid #D9700D;
     transition: 0.5 ease;
 }
+
 .navbar-brand img{
     width: 100%;
-    height: 100px;
-    position: relative;
     left: 50px;
 
 }
@@ -48,6 +46,7 @@ html, body {
     color: #555;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
+    height: 110vh;
 }
 #about h1 {
     font-family: 'Roboto Slab', serif;
